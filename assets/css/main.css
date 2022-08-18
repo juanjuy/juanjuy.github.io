@@ -2392,7 +2392,8 @@ input, select, textarea {
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: auto;
+				height: 200px;
 			}
 
 /* List */
@@ -3524,7 +3525,7 @@ input, select, textarea {
 
 	}
 
-	.haven {
+	.fana {
 		font-style: normal;
 	}
 

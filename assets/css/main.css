@@ -274,6 +274,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
+			.demo-gif {
+				max-width: 500px;
+			}
+
 			.container {
 				max-width: 100% !important;
 				width: 100% !important;
@@ -282,6 +286,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
+
+			.demo-gif {
+				max-width: 300px;
+			}
 
 			.container {
 				max-width: calc(100% - 3em);
@@ -534,6 +542,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 1680px) {
 
+			.demo-gif {
+				max-width: 500px;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -778,6 +790,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1140px) {
+
+			.demo-gif {
+				max-width: 500px;
+			}
 
 			.row {
 				display: flex;
@@ -1024,6 +1040,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
+		.demo-gif {
+			max-width: 500px;
+		}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1268,6 +1288,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+
+			.demo-gif {
+				max-width: 400px;
+			}
 
 			.row {
 				display: flex;
@@ -1514,6 +1538,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			.demo-gif {
+				max-width: 300px;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1758,6 +1786,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 320px) {
+
+			.demo-gif {
+				max-width: 300px;
+			}
 
 			.row {
 				display: flex;
@@ -2358,11 +2390,13 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		
 	}
 
 		.image img {
 			border-radius: 4px;
 			display: block;
+			margin-inline: auto;
 		}
 
 		.image.left {
@@ -3230,7 +3264,9 @@ input, select, textarea {
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
-
+		.demo-gif {
+			width: 500px;
+		}
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3251,6 +3287,9 @@ input, select, textarea {
 
 		/* Basic */
 
+		.demo-gif {
+			max-width: 500px;
+		}
 			body, input, select, textarea {
 				font-size: 13pt;
 			}
@@ -3306,6 +3345,10 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		/* List */
+
+		.demo-gif {
+			max-width: 400px;
+		}
 
 			ul.major-icons li {
 				padding: 2em;
@@ -3366,6 +3409,10 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
+
+		.demo-gif {
+			max-width: 300px;
+		}
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -3450,6 +3497,10 @@ input, select, textarea {
 
 		/* Button */
 
+		.demo-gif {
+			max-width: 300px;
+		}
+
 			input[type="submit"],
 			input[type="reset"],
 			input[type="button"],
@@ -3501,6 +3552,10 @@ input, select, textarea {
 	@media screen and (max-width: 320px) {
 
 		/* Basic */
+
+		.demo-gif {
+			max-width: 300px;
+		}
 
 			html, body {
 				min-width: 320px;
@@ -3557,6 +3612,10 @@ input, select, textarea {
 
 	@media screen and (max-width: 1000px) {
 
+		.demo-gif {
+			max-width: 500px;
+		}
+
 		#name-nav {
 			font-size: 1.2rem;
 		}
@@ -3572,6 +3631,10 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 850px) {
+
+		.demo-gif {
+			max-width: 400px;
+		}
 
 		#name-nav {
 			font-size: 1rem;
@@ -3589,6 +3652,10 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 700px) {
+
+		.demo-gif {
+			max-width: 300px;
+		}
 
 		#name-nav {
 			display: block;
@@ -3612,6 +3679,10 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 500px) {
+
+		.demo-gif {
+			max-width: 300px;
+		}
 
 		#profile {
 			width: 60%;

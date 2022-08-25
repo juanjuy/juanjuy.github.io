@@ -72,6 +72,14 @@ input, select, textarea {
 	appearance: none;
 }
 
+.demo-gif {
+	max-width: 500px;
+}
+
+.inner {
+	max-width: 1300px;
+	margin-inline: auto;
+}
 /* Basic */
 
 	html {

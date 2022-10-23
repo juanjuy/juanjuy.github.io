@@ -2437,7 +2437,13 @@ input, select, textarea {
 				width: auto;
 				height: 200px;
 			}
-
+			.about-image img {
+				height: 400px;
+				width: auto;
+			}
+			.about-image figcaption {
+				text-align: center;
+			}
 /* List */
 
 	ol {
